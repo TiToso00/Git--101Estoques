@@ -132,3 +132,19 @@ docker run -p 3002:3002 ms-alugueis
 - [C4 Model - Nível 2 (Container)](./C4_LEVEL_2_CONTAINER.md)
 - [C4 Model - Nível 3 (Component)](./C4_LEVEL_3_COMPONENT.md)
 - [Canvas Architecture](./CANVAS.md)
+
+## 🔗 Links úteis
+
+- Frontend (dev - Vite): http://localhost:5173
+- Frontend (prod - Firebase): https://<SEU_PROJETO_FIREBASE>.web.app  (substitua pelo domínio do projeto)
+- API Gateway: (não implementado) — sugerido local: http://localhost:8000
+- BFF (local): http://localhost:3000
+- BFF - Swagger (YAML): `functions/bff-node/docs/swagger.yaml` — abra no https://editor.swagger.io/ ou sirva com swagger-ui-express (/docs)
+- MS Aluguéis (local): http://localhost:3002
+- MS Aluguéis - Swagger: (não existe) — sugerir criar `functions/microservice-alugueis/docs/swagger.yaml`
+- MS Estoques (local): http://localhost:3001
+- MS Estoques - Swagger: (não existe) — sugerir criar `functions/microservice-estoques/docs/swagger.yaml`
+
+Observações:
+- Para visualizar o Swagger localmente sem UI configurada, abra o arquivo YAML no https://editor.swagger.io/ e cole o conteúdo.
+- Substitua `<SEU_PROJETO_FIREBASE>` pelo ID do seu projeto quando publicar no Firebase.
